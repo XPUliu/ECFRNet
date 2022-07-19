@@ -31,6 +31,12 @@ Download data from http://www.image-net.org/
 
 The download image is palced in‘./data/datasets/ImageNet’
 
+1.Making training set
+
+cd‘./ECFRNet/'：
+     Rcorner.m
+     get_training_pair.m
+
 1.Traning ECFRNet：
 
 cd‘./ECFRNet/'：
