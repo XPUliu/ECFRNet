@@ -17,12 +17,12 @@ best checkpoint：Contains optimal weights for training
 
 checkpoint：Weight saving folder during training 
 
-data---datasets： ImageNet datasets and test image are placed in here
+data---datasets： ImageNet datasets and test image
     ---train_pair：The training data set is placed here ,and named as ECFRNet_test_block.mat and ECFRNet_train_block.mat
 
-HardNet:HardNet++ descriptor generated File is placed here
+HardNet:HardNet++ descriptor generated File
 
-model：Network model is placed here
+model：Network model
 
 
 #### Get the ImageNet dataset
