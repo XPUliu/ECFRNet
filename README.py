@@ -33,13 +33,13 @@ The download image is palced in‘./data/datasets/ImageNet’
 
 1.Making training set
 
-cd‘./ECFRNet/'：
+cd‘./ECFRNet-main/data/RCFIBS'：
      Rcorner.m
      get_training_pair.m
 
 1.Traning ECFRNet：
 
-cd‘./ECFRNet/'：
+cd‘./ECFRNet-main/'：
 
       python ECFRNet_train.py
 
@@ -47,7 +47,7 @@ cd‘./ECFRNet/'：
 
 2.1 If only the corner features are extracted.
 
-cd‘./ECFRNet/'：
+cd‘./ECFRNet-main/'：
 
       python ECFRNet_test.py # the 2*N*M corner prediction coordinates are generated 
 
@@ -55,7 +55,7 @@ cd‘./ECFRNet/'：
 
 2.2 If the corner features and descriptors are extracted(HardNet is used to extract the descriptor ).
 
-cd‘./ECFRNet/'：
+cd‘./ECFRNet-main/'：
 
       python ECFRNet_test.py # the 2*N*M corner prediction coordinates are generated 
 
